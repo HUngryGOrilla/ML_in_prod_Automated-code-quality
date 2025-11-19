@@ -5,7 +5,6 @@ def create_app():
     app = Flask(__name__)
 
     items = []
-    unused = 123
 
     def normalize_item_name(name: str) -> str:
         if name is None:
